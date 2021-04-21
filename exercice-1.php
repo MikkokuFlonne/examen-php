@@ -14,18 +14,23 @@
         <h2>Exercice 1</h2>
 
         <ol>
+
+            <!-- Question 1 -->
             <li>
             
             </li>
 
+            <!-- Question 2 -->
             <li>
             
             </li>
 
+            <!-- Question 3 -->
             <li>
                 Javascript
             </li>
 
+            <!-- Question 4 -->
             <li>
                 String, integer, boolean, float...
                 <?php
@@ -36,6 +41,7 @@
 
             </li>
 
+            <!-- Question 5 -->
             <li>
                     <?php
                     function test($x){
@@ -51,7 +57,8 @@
                         }
                     ?>            
             </li>
-
+            
+            <!-- Question 6 -->
             <li>
                     ==, ===, >=,<=, >, </br>
                     <?php
@@ -66,6 +73,7 @@
             
             </li>
 
+            <!-- Question 7 -->
             <li>
             <?php
                 function multiplication($x,$y){

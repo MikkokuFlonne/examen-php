@@ -12,9 +12,12 @@
     <article>
         <h2>Exercice 2</h2>
         <ol>
+            <!-- Question 1 -->
             <li>
                 MySql sert à gérer une base de données.
             </li>
+
+            <!-- Question 2 -->
             <li>
                 <ul>
                     <li>La base de données est gérée coté serveur et renvoie les informations demandées via un script coté client. Les données sont supprimées quand on en fait la requête SQL.</li>
@@ -27,12 +30,15 @@
 
             </li>
 
+            <!-- Question 3-->
             <li>
 
                 Requête SQL pour la création de la table stagiaire (id, name, created_at, phone, birthday) : </br>
                 CREATE TABLE `exam_m2i`.`stagiaire` ( `id` INT NOT NULL AUTO_INCREMENT , `created_at` DATE NOT NULL , `name` VARCHAR(255) NOT NULL , `phone` VARCHAR(255) NOT NULL , `birthday` DATE NOT NULL , PRIMARY KEY (`id`)) ENGINE = INNODB;
 
             </li>
+
+            <!-- Question 4 -->
             <li>
                 <?php
 
@@ -50,6 +56,8 @@
                 ]);
 
             </li>
+
+            <!-- Question 5 -->
             <li>
                 <?php
 
